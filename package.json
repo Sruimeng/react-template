@@ -1,8 +1,24 @@
 {
-  "name": "react-router-v7-template",
+  "name": "my-react-app",
+  "version": "0.1.0",
+  "description": "A modern React SSR application built with React Router v7",
+  "author": "",
+  "license": "MIT",
   "private": true,
   "sideEffects": false,
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "react",
+    "react-router",
+    "ssr",
+    "vite",
+    "typescript",
+    "unocss"
+  ],
   "scripts": {
     "prepare": "husky",
     "dev": "react-router dev",

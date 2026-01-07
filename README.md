@@ -1,6 +1,49 @@
 # React Router v7 Template
 
+[![Use this template](https://img.shields.io/badge/Use%20this-template-blue?style=for-the-badge)](https://github.com/YOUR_USERNAME/react-router-v7-template/generate)
+[![GitHub license](https://img.shields.io/github/license/YOUR_USERNAME/react-router-v7-template?style=for-the-badge)](./LICENSE)
+
 一个基于 React Router v7 的现代化 React SSR 项目模板。
+
+## 🚀 使用此模板
+
+### 方式一：GitHub Template（推荐）
+
+1. 点击上方的 **"Use this template"** 按钮
+2. 选择 **"Create a new repository"**
+3. 填写你的仓库名称和描述
+4. 点击 **"Create repository"**
+
+### 方式二：手动克隆
+
+```bash
+# 使用 degit 克隆（不包含 git 历史）
+npx degit YOUR_USERNAME/react-router-v7-template my-project
+
+# 或者使用 git clone
+git clone https://github.com/YOUR_USERNAME/react-router-v7-template.git my-project
+cd my-project
+rm -rf .git
+git init
+```
+
+### 初始化项目
+
+克隆后，请执行以下步骤：
+
+1. **更新 `package.json`**：
+   - 修改 `name` 为你的项目名称
+   - 更新 `description`、`author`、`repository` 等字段
+
+2. **安装依赖**：
+   ```bash
+   pnpm install
+   ```
+
+3. **启动开发服务器**：
+   ```bash
+   pnpm dev
+   ```
 
 ## 技术栈
 
